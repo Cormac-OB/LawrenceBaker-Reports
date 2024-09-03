@@ -1,0 +1,55 @@
+{
+  "id": "0b8ed104-2eeb-4b2b-b135-4808655fc260",  
+  "name": "Lawrence Baker - Reports", 
+  "description": "Includes custom report changes for Custome Name",
+  "publisher": "Eque2 Ltd.",
+  "privacyStatement": "https://www.eque2.co.uk/privacy-policy/",
+  "EULA": "https://www.eque2.co.uk/construction-accounting-software/evision-erp/",
+  "help": "https://www.eque2.co.uk/evision-customer-portal/",
+  "url": "https://www.eque2.co.uk/remote-support/",
+
+  "brief": "",
+  "version": "22.0.0.1",
+  "runtime": "11.0",
+  "target": "Cloud",
+  "platform": "22.0.0.0",
+  "application": "22.0.0.0",
+  "logo": "media/applogo.png",
+  "dependencies": [
+    {
+      "id": "fb0a1361-7b4b-4cbd-bf02-168331b2d9a3",
+      "name": "EVision Library",
+      "version": "22.0.0.0",
+      "publisher": "Eque2 Ltd."
+    },
+    {
+      "id": "862322a8-9ea5-44c7-81a3-84c3ff39e2af",
+      "name": "EVision Subcontractors",
+      "version": "22.0.0.0",
+      "publisher": "Eque2 Ltd."
+    },
+    {
+      "id": "15dd4e83-0513-4ef3-a075-7fb95462093c",
+      "name": "EVision Contract Sales",
+      "version": "22.0.0.0",
+      "publisher": "Eque2 Ltd."
+    },
+    {
+      "id": "d67a4850-6975-434f-b7c6-73d90d803d5f",
+      "name": "EVision Plant",
+      "version": "22.0.0.0",
+      "publisher": "Eque2 Ltd."
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  }
+}
