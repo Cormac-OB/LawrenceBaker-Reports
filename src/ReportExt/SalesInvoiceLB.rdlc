@@ -11546,6 +11546,21 @@ End Function</Code>
         <Field Name="SelltoCustNo_SalesInvcHeaderCaption">
           <DataField>SelltoCustNo_SalesInvcHeaderCaption</DataField>
         </Field>
+        <Field Name="Project">
+          <DataField>Project</DataField>
+        </Field>
+        <Field Name="ProjectRef">
+          <DataField>ProjectRef</DataField>
+        </Field>
+        <Field Name="NewDate">
+          <DataField>NewDate</DataField>
+        </Field>
+        <Field Name="Terms">
+          <DataField>Terms</DataField>
+        </Field>
+        <Field Name="UTR">
+          <DataField>UTR</DataField>
+        </Field>
       </Fields>
       <Query>
         <DataSourceName>DataSource</DataSourceName>

@@ -11,388 +11,6 @@
       <rd:DataSourceID>d2b9a5cb-bc6a-4cb0-aa9a-fc8f18cdedf7</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="Contract_Sales_Invoice_Header_No_">
-          <DataField>Contract_Sales_Invoice_Header_No_</DataField>
-        </Field>
-        <Field Name="ReportType">
-          <DataField>ReportType</DataField>
-        </Field>
-        <Field Name="ReportTypeTxt">
-          <DataField>ReportTypeTxt</DataField>
-        </Field>
-        <Field Name="GrossAmtPrev_ContractSalesInvoiceHeader">
-          <DataField>GrossAmtPrev_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="GrossAmtPrev_ContractSalesInvoiceHeaderFormat">
-          <DataField>GrossAmtPrev_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="GrossAmountCurrDoc_ContractSalesInvoiceHeader">
-          <DataField>GrossAmountCurrDoc_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="GrossAmountCurrDoc_ContractSalesInvoiceHeaderFormat">
-          <DataField>GrossAmountCurrDoc_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="GrossAmtTotDate_ContractSalesInvoiceHeader">
-          <DataField>GrossAmtTotDate_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="GrossAmtTotDate_ContractSalesInvoiceHeaderFormat">
-          <DataField>GrossAmtTotDate_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="MCDAmtPrev_ContractSalesInvoiceHeader">
-          <DataField>MCDAmtPrev_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="MCDAmtPrev_ContractSalesInvoiceHeaderFormat">
-          <DataField>MCDAmtPrev_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="MCDAmountCurrDoc_ContractSalesInvoiceHeader">
-          <DataField>MCDAmountCurrDoc_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="MCDAmountCurrDoc_ContractSalesInvoiceHeaderFormat">
-          <DataField>MCDAmountCurrDoc_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="MCDAmtTotDate_ContractSalesInvoiceHeader">
-          <DataField>MCDAmtTotDate_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="MCDAmtTotDate_ContractSalesInvoiceHeaderFormat">
-          <DataField>MCDAmtTotDate_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="RetentionAmtPrev_ContractSalesInvoiceHeader">
-          <DataField>RetentionAmtPrev_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="RetentionAmtPrev_ContractSalesInvoiceHeaderFormat">
-          <DataField>RetentionAmtPrev_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="RetentionAmountCurrDoc_ContractSalesInvoiceHeader">
-          <DataField>RetentionAmountCurrDoc_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="RetentionAmountCurrDoc_ContractSalesInvoiceHeaderFormat">
-          <DataField>RetentionAmountCurrDoc_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="RetentionAmtTotDate_ContractSalesInvoiceHeader">
-          <DataField>RetentionAmtTotDate_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="RetentionAmtTotDate_ContractSalesInvoiceHeaderFormat">
-          <DataField>RetentionAmtTotDate_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="NetValueTotal_ContractSalesInvoiceHeader">
-          <DataField>NetValueTotal_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="NetValueTotal_ContractSalesInvoiceHeaderFormat">
-          <DataField>NetValueTotal_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="LessPreviousTotal_ContractSalesInvoiceHeader">
-          <DataField>LessPreviousTotal_ContractSalesInvoiceHeader</DataField>
-        </Field>
-        <Field Name="LessPreviousTotal_ContractSalesInvoiceHeaderFormat">
-          <DataField>LessPreviousTotal_ContractSalesInvoiceHeaderFormat</DataField>
-        </Field>
-        <Field Name="AmountDueTotal_ContractSalesHeader">
-          <DataField>AmountDueTotal_ContractSalesHeader</DataField>
-        </Field>
-        <Field Name="AmountDueTotal_ContractSalesHeaderFormat">
-          <DataField>AmountDueTotal_ContractSalesHeaderFormat</DataField>
-        </Field>
-        <Field Name="CanPrint">
-          <DataField>CanPrint</DataField>
-        </Field>
-        <Field Name="STRSUBSTNO_Text004_CopyText_">
-          <DataField>STRSUBSTNO_Text004_CopyText_</DataField>
-        </Field>
-        <Field Name="Sales_Header___No__">
-          <DataField>Sales_Header___No__</DataField>
-        </Field>
-        <Field Name="FORMAT__Sales_Header___Document_Date__0_4_">
-          <DataField>FORMAT__Sales_Header___Document_Date__0_4_</DataField>
-        </Field>
-        <Field Name="OrderRef">
-          <DataField>OrderRef</DataField>
-        </Field>
-        <Field Name="BankText">
-          <DataField>BankText</DataField>
-        </Field>
-        <Field Name="CompText1">
-          <DataField>CompText1</DataField>
-        </Field>
-        <Field Name="CompText2">
-          <DataField>CompText2</DataField>
-        </Field>
-        <Field Name="CompText3">
-          <DataField>CompText3</DataField>
-        </Field>
-        <Field Name="CompText4">
-          <DataField>CompText4</DataField>
-        </Field>
-        <Field Name="CompText5">
-          <DataField>CompText5</DataField>
-        </Field>
-        <Field Name="CompText6">
-          <DataField>CompText6</DataField>
-        </Field>
-        <Field Name="YourRef">
-          <DataField>YourRef</DataField>
-        </Field>
-        <Field Name="ExternalDocNo">
-          <DataField>ExternalDocNo</DataField>
-        </Field>
-        <Field Name="CompanyInfo__VAT_Registration_No__">
-          <DataField>CompanyInfo__VAT_Registration_No__</DataField>
-        </Field>
-        <Field Name="CompanyInfo__Fax_No__">
-          <DataField>CompanyInfo__Fax_No__</DataField>
-        </Field>
-        <Field Name="CompanyInfo__Phone_No__">
-          <DataField>CompanyInfo__Phone_No__</DataField>
-        </Field>
-        <Field Name="Picture_CompanyInfo">
-          <DataField>Picture_CompanyInfo</DataField>
-        </Field>
-        <Field Name="CompanyAddr_7_">
-          <DataField>CompanyAddr_7_</DataField>
-        </Field>
-        <Field Name="CompanyAddr_6_">
-          <DataField>CompanyAddr_6_</DataField>
-        </Field>
-        <Field Name="CompanyAddr_5_">
-          <DataField>CompanyAddr_5_</DataField>
-        </Field>
-        <Field Name="CompanyAddr_4_">
-          <DataField>CompanyAddr_4_</DataField>
-        </Field>
-        <Field Name="CompanyAddr_3_">
-          <DataField>CompanyAddr_3_</DataField>
-        </Field>
-        <Field Name="CompanyAddr_2_">
-          <DataField>CompanyAddr_2_</DataField>
-        </Field>
-        <Field Name="CompanyAddr_1_">
-          <DataField>CompanyAddr_1_</DataField>
-        </Field>
-        <Field Name="PageCaption">
-          <DataField>PageCaption</DataField>
-        </Field>
-        <Field Name="OutputNo">
-          <DataField>OutputNo</DataField>
-        </Field>
-        <Field Name="JobTaskDesc">
-          <DataField>JobTaskDesc</DataField>
-        </Field>
-        <Field Name="JobDesc">
-          <DataField>JobDesc</DataField>
-        </Field>
-        <Field Name="ContractDetailsAddr8">
-          <DataField>ContractDetailsAddr8</DataField>
-        </Field>
-        <Field Name="ContractDetailsAddr7">
-          <DataField>ContractDetailsAddr7</DataField>
-        </Field>
-        <Field Name="ContractDetailsAddr6">
-          <DataField>ContractDetailsAddr6</DataField>
-        </Field>
-        <Field Name="ContractDetailsAddr5">
-          <DataField>ContractDetailsAddr5</DataField>
-        </Field>
-        <Field Name="ContractDetailsAddr4">
-          <DataField>ContractDetailsAddr4</DataField>
-        </Field>
-        <Field Name="ContractDetailsAddr3">
-          <DataField>ContractDetailsAddr3</DataField>
-        </Field>
-        <Field Name="ContractDetailsAddr2">
-          <DataField>ContractDetailsAddr2</DataField>
-        </Field>
-        <Field Name="ContractDetailsAddr1">
-          <DataField>ContractDetailsAddr1</DataField>
-        </Field>
-        <Field Name="CustAddr_8_">
-          <DataField>CustAddr_8_</DataField>
-        </Field>
-        <Field Name="CustAddr_7_">
-          <DataField>CustAddr_7_</DataField>
-        </Field>
-        <Field Name="CustAddr_6_">
-          <DataField>CustAddr_6_</DataField>
-        </Field>
-        <Field Name="CustAddr_5_">
-          <DataField>CustAddr_5_</DataField>
-        </Field>
-        <Field Name="CustAddr_4_">
-          <DataField>CustAddr_4_</DataField>
-        </Field>
-        <Field Name="CustAddr_3_">
-          <DataField>CustAddr_3_</DataField>
-        </Field>
-        <Field Name="CustAddr_2_">
-          <DataField>CustAddr_2_</DataField>
-        </Field>
-        <Field Name="CustAddr_1_">
-          <DataField>CustAddr_1_</DataField>
-        </Field>
-        <Field Name="CurrencyCode">
-          <DataField>CurrencyCode</DataField>
-        </Field>
-        <Field Name="PageLoop_Number">
-          <DataField>PageLoop_Number</DataField>
-        </Field>
-        <Field Name="CurrPage">
-          <DataField>CurrPage</DataField>
-        </Field>
-        <Field Name="TotalPreviousValue">
-          <DataField>TotalPreviousValue</DataField>
-        </Field>
-        <Field Name="TotalPreviousValueFormat">
-          <DataField>TotalPreviousValueFormat</DataField>
-        </Field>
-        <Field Name="GrossAmountToDate_ContractSalesInvoiceLine">
-          <DataField>GrossAmountToDate_ContractSalesInvoiceLine</DataField>
-        </Field>
-        <Field Name="GrossAmountToDate_ContractSalesInvoiceLineFormat">
-          <DataField>GrossAmountToDate_ContractSalesInvoiceLineFormat</DataField>
-        </Field>
-        <Field Name="RetentionToDate_ContractSalesInvoiceLine">
-          <DataField>RetentionToDate_ContractSalesInvoiceLine</DataField>
-        </Field>
-        <Field Name="RetentionToDate_ContractSalesInvoiceLineFormat">
-          <DataField>RetentionToDate_ContractSalesInvoiceLineFormat</DataField>
-        </Field>
-        <Field Name="MCDToDate_ContractSalesInvoiceLine">
-          <DataField>MCDToDate_ContractSalesInvoiceLine</DataField>
-        </Field>
-        <Field Name="MCDToDate_ContractSalesInvoiceLineFormat">
-          <DataField>MCDToDate_ContractSalesInvoiceLineFormat</DataField>
-        </Field>
-        <Field Name="NetAmount_ContractSalesInvoiceLine">
-          <DataField>NetAmount_ContractSalesInvoiceLine</DataField>
-        </Field>
-        <Field Name="NetAmount_ContractSalesInvoiceLineFormat">
-          <DataField>NetAmount_ContractSalesInvoiceLineFormat</DataField>
-        </Field>
-        <Field Name="NetValue">
-          <DataField>NetValue</DataField>
-        </Field>
-        <Field Name="NetValueFormat">
-          <DataField>NetValueFormat</DataField>
-        </Field>
-        <Field Name="PreviousValue_ContractSalesInvoiceLine">
-          <DataField>PreviousValue_ContractSalesInvoiceLine</DataField>
-        </Field>
-        <Field Name="PreviousValue_ContractSalesInvoiceLineFormat">
-          <DataField>PreviousValue_ContractSalesInvoiceLineFormat</DataField>
-        </Field>
-        <Field Name="VAT_Amount_ContractSalesInvoiceLine">
-          <DataField>VAT_Amount_ContractSalesInvoiceLine</DataField>
-        </Field>
-        <Field Name="VAT_Amount_ContractSalesInvoiceLineFormat">
-          <DataField>VAT_Amount_ContractSalesInvoiceLineFormat</DataField>
-        </Field>
-        <Field Name="Amount_ContractSalesInvoiceLine">
-          <DataField>Amount_ContractSalesInvoiceLine</DataField>
-        </Field>
-        <Field Name="Amount_ContractSalesInvoiceLineFormat">
-          <DataField>Amount_ContractSalesInvoiceLineFormat</DataField>
-        </Field>
-        <Field Name="Contract_Sales_Invoice_Line_Document_No_">
-          <DataField>Contract_Sales_Invoice_Line_Document_No_</DataField>
-        </Field>
-        <Field Name="Contract_Sales_Invoice_Line_Line_No_">
-          <DataField>Contract_Sales_Invoice_Line_Line_No_</DataField>
-        </Field>
-        <Field Name="VATClauseDescription">
-          <DataField>VATClauseDescription</DataField>
-        </Field>
-        <Field Name="VATClauseAmount">
-          <DataField>VATClauseAmount</DataField>
-        </Field>
-        <Field Name="VATClauseAmountFormat">
-          <DataField>VATClauseAmountFormat</DataField>
-        </Field>
-        <Field Name="FORMAT_VATAmountLine__VAT___________">
-          <DataField>FORMAT_VATAmountLine__VAT___________</DataField>
-        </Field>
-        <Field Name="VATAmountLine__VAT_Base_">
-          <DataField>VATAmountLine__VAT_Base_</DataField>
-        </Field>
-        <Field Name="VATAmountLine__VAT_Base_Format">
-          <DataField>VATAmountLine__VAT_Base_Format</DataField>
-        </Field>
-        <Field Name="VATAmountLine__VAT_Amount_">
-          <DataField>VATAmountLine__VAT_Amount_</DataField>
-        </Field>
-        <Field Name="VATAmountLine__VAT_Amount_Format">
-          <DataField>VATAmountLine__VAT_Amount_Format</DataField>
-        </Field>
-        <Field Name="VATCounter_Number">
-          <DataField>VATCounter_Number</DataField>
-        </Field>
-        <Field Name="VATCalculationType">
-          <DataField>VATCalculationType</DataField>
-        </Field>
-        <Field Name="TotalGrossValue">
-          <DataField>TotalGrossValue</DataField>
-        </Field>
-        <Field Name="TotalGrossValueFormat">
-          <DataField>TotalGrossValueFormat</DataField>
-        </Field>
-        <Field Name="TotalRetentionValue">
-          <DataField>TotalRetentionValue</DataField>
-        </Field>
-        <Field Name="TotalRetentionValueFormat">
-          <DataField>TotalRetentionValueFormat</DataField>
-        </Field>
-        <Field Name="TotalMCDValue">
-          <DataField>TotalMCDValue</DataField>
-        </Field>
-        <Field Name="TotalMCDValueFormat">
-          <DataField>TotalMCDValueFormat</DataField>
-        </Field>
-        <Field Name="ClauseDescription">
-          <DataField>ClauseDescription</DataField>
-        </Field>
-        <Field Name="ClauseVATAmount">
-          <DataField>ClauseVATAmount</DataField>
-        </Field>
-        <Field Name="ClauseVATAmountFormat">
-          <DataField>ClauseVATAmountFormat</DataField>
-        </Field>
-        <Field Name="TempVATAmountLineVAT">
-          <DataField>TempVATAmountLineVAT</DataField>
-        </Field>
-        <Field Name="TempVATAmountLineVATFormat">
-          <DataField>TempVATAmountLineVATFormat</DataField>
-        </Field>
-        <Field Name="TempVATAmountLineNetAmount">
-          <DataField>TempVATAmountLineNetAmount</DataField>
-        </Field>
-        <Field Name="TempVATAmountLineNetAmountFormat">
-          <DataField>TempVATAmountLineNetAmountFormat</DataField>
-        </Field>
-        <Field Name="Project">
-          <DataField>Project</DataField>
-        </Field>
-        <Field Name="ProjectRef">
-          <DataField>ProjectRef</DataField>
-        </Field>
-        <Field Name="NewDate">
-          <DataField>NewDate</DataField>
-        </Field>
-        <Field Name="Terms">
-          <DataField>Terms</DataField>
-        </Field>
-        <Field Name="RetentionPercentage">
-          <DataField>RetentionPercentage</DataField>
-        </Field>
-        <Field Name="RetentionPercentageFormat">
-          <DataField>RetentionPercentageFormat</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -6446,4 +6064,389 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
   <rd:ReportID>6d0e5f29-40a7-4e60-9cac-9d3c1e625ba6</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Contract_Sales_Invoice_Header_No_">
+          <DataField>Contract_Sales_Invoice_Header_No_</DataField>
+        </Field>
+        <Field Name="ReportType">
+          <DataField>ReportType</DataField>
+        </Field>
+        <Field Name="ReportTypeTxt">
+          <DataField>ReportTypeTxt</DataField>
+        </Field>
+        <Field Name="GrossAmtPrev_ContractSalesInvoiceHeader">
+          <DataField>GrossAmtPrev_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="GrossAmtPrev_ContractSalesInvoiceHeaderFormat">
+          <DataField>GrossAmtPrev_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="GrossAmountCurrDoc_ContractSalesInvoiceHeader">
+          <DataField>GrossAmountCurrDoc_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="GrossAmountCurrDoc_ContractSalesInvoiceHeaderFormat">
+          <DataField>GrossAmountCurrDoc_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="GrossAmtTotDate_ContractSalesInvoiceHeader">
+          <DataField>GrossAmtTotDate_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="GrossAmtTotDate_ContractSalesInvoiceHeaderFormat">
+          <DataField>GrossAmtTotDate_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="MCDAmtPrev_ContractSalesInvoiceHeader">
+          <DataField>MCDAmtPrev_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="MCDAmtPrev_ContractSalesInvoiceHeaderFormat">
+          <DataField>MCDAmtPrev_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="MCDAmountCurrDoc_ContractSalesInvoiceHeader">
+          <DataField>MCDAmountCurrDoc_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="MCDAmountCurrDoc_ContractSalesInvoiceHeaderFormat">
+          <DataField>MCDAmountCurrDoc_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="MCDAmtTotDate_ContractSalesInvoiceHeader">
+          <DataField>MCDAmtTotDate_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="MCDAmtTotDate_ContractSalesInvoiceHeaderFormat">
+          <DataField>MCDAmtTotDate_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="RetentionAmtPrev_ContractSalesInvoiceHeader">
+          <DataField>RetentionAmtPrev_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="RetentionAmtPrev_ContractSalesInvoiceHeaderFormat">
+          <DataField>RetentionAmtPrev_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="RetentionAmountCurrDoc_ContractSalesInvoiceHeader">
+          <DataField>RetentionAmountCurrDoc_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="RetentionAmountCurrDoc_ContractSalesInvoiceHeaderFormat">
+          <DataField>RetentionAmountCurrDoc_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="RetentionAmtTotDate_ContractSalesInvoiceHeader">
+          <DataField>RetentionAmtTotDate_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="RetentionAmtTotDate_ContractSalesInvoiceHeaderFormat">
+          <DataField>RetentionAmtTotDate_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="NetValueTotal_ContractSalesInvoiceHeader">
+          <DataField>NetValueTotal_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="NetValueTotal_ContractSalesInvoiceHeaderFormat">
+          <DataField>NetValueTotal_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="LessPreviousTotal_ContractSalesInvoiceHeader">
+          <DataField>LessPreviousTotal_ContractSalesInvoiceHeader</DataField>
+        </Field>
+        <Field Name="LessPreviousTotal_ContractSalesInvoiceHeaderFormat">
+          <DataField>LessPreviousTotal_ContractSalesInvoiceHeaderFormat</DataField>
+        </Field>
+        <Field Name="AmountDueTotal_ContractSalesHeader">
+          <DataField>AmountDueTotal_ContractSalesHeader</DataField>
+        </Field>
+        <Field Name="AmountDueTotal_ContractSalesHeaderFormat">
+          <DataField>AmountDueTotal_ContractSalesHeaderFormat</DataField>
+        </Field>
+        <Field Name="CanPrint">
+          <DataField>CanPrint</DataField>
+        </Field>
+        <Field Name="STRSUBSTNO_Text004_CopyText_">
+          <DataField>STRSUBSTNO_Text004_CopyText_</DataField>
+        </Field>
+        <Field Name="Sales_Header___No__">
+          <DataField>Sales_Header___No__</DataField>
+        </Field>
+        <Field Name="FORMAT__Sales_Header___Document_Date__0_4_">
+          <DataField>FORMAT__Sales_Header___Document_Date__0_4_</DataField>
+        </Field>
+        <Field Name="OrderRef">
+          <DataField>OrderRef</DataField>
+        </Field>
+        <Field Name="BankText">
+          <DataField>BankText</DataField>
+        </Field>
+        <Field Name="CompText1">
+          <DataField>CompText1</DataField>
+        </Field>
+        <Field Name="CompText2">
+          <DataField>CompText2</DataField>
+        </Field>
+        <Field Name="CompText3">
+          <DataField>CompText3</DataField>
+        </Field>
+        <Field Name="CompText4">
+          <DataField>CompText4</DataField>
+        </Field>
+        <Field Name="CompText5">
+          <DataField>CompText5</DataField>
+        </Field>
+        <Field Name="CompText6">
+          <DataField>CompText6</DataField>
+        </Field>
+        <Field Name="YourRef">
+          <DataField>YourRef</DataField>
+        </Field>
+        <Field Name="ExternalDocNo">
+          <DataField>ExternalDocNo</DataField>
+        </Field>
+        <Field Name="CompanyInfo__VAT_Registration_No__">
+          <DataField>CompanyInfo__VAT_Registration_No__</DataField>
+        </Field>
+        <Field Name="CompanyInfo__Fax_No__">
+          <DataField>CompanyInfo__Fax_No__</DataField>
+        </Field>
+        <Field Name="CompanyInfo__Phone_No__">
+          <DataField>CompanyInfo__Phone_No__</DataField>
+        </Field>
+        <Field Name="Picture_CompanyInfo">
+          <DataField>Picture_CompanyInfo</DataField>
+        </Field>
+        <Field Name="CompanyAddr_7_">
+          <DataField>CompanyAddr_7_</DataField>
+        </Field>
+        <Field Name="CompanyAddr_6_">
+          <DataField>CompanyAddr_6_</DataField>
+        </Field>
+        <Field Name="CompanyAddr_5_">
+          <DataField>CompanyAddr_5_</DataField>
+        </Field>
+        <Field Name="CompanyAddr_4_">
+          <DataField>CompanyAddr_4_</DataField>
+        </Field>
+        <Field Name="CompanyAddr_3_">
+          <DataField>CompanyAddr_3_</DataField>
+        </Field>
+        <Field Name="CompanyAddr_2_">
+          <DataField>CompanyAddr_2_</DataField>
+        </Field>
+        <Field Name="CompanyAddr_1_">
+          <DataField>CompanyAddr_1_</DataField>
+        </Field>
+        <Field Name="PageCaption">
+          <DataField>PageCaption</DataField>
+        </Field>
+        <Field Name="OutputNo">
+          <DataField>OutputNo</DataField>
+        </Field>
+        <Field Name="JobTaskDesc">
+          <DataField>JobTaskDesc</DataField>
+        </Field>
+        <Field Name="JobDesc">
+          <DataField>JobDesc</DataField>
+        </Field>
+        <Field Name="ContractDetailsAddr8">
+          <DataField>ContractDetailsAddr8</DataField>
+        </Field>
+        <Field Name="ContractDetailsAddr7">
+          <DataField>ContractDetailsAddr7</DataField>
+        </Field>
+        <Field Name="ContractDetailsAddr6">
+          <DataField>ContractDetailsAddr6</DataField>
+        </Field>
+        <Field Name="ContractDetailsAddr5">
+          <DataField>ContractDetailsAddr5</DataField>
+        </Field>
+        <Field Name="ContractDetailsAddr4">
+          <DataField>ContractDetailsAddr4</DataField>
+        </Field>
+        <Field Name="ContractDetailsAddr3">
+          <DataField>ContractDetailsAddr3</DataField>
+        </Field>
+        <Field Name="ContractDetailsAddr2">
+          <DataField>ContractDetailsAddr2</DataField>
+        </Field>
+        <Field Name="ContractDetailsAddr1">
+          <DataField>ContractDetailsAddr1</DataField>
+        </Field>
+        <Field Name="CustAddr_8_">
+          <DataField>CustAddr_8_</DataField>
+        </Field>
+        <Field Name="CustAddr_7_">
+          <DataField>CustAddr_7_</DataField>
+        </Field>
+        <Field Name="CustAddr_6_">
+          <DataField>CustAddr_6_</DataField>
+        </Field>
+        <Field Name="CustAddr_5_">
+          <DataField>CustAddr_5_</DataField>
+        </Field>
+        <Field Name="CustAddr_4_">
+          <DataField>CustAddr_4_</DataField>
+        </Field>
+        <Field Name="CustAddr_3_">
+          <DataField>CustAddr_3_</DataField>
+        </Field>
+        <Field Name="CustAddr_2_">
+          <DataField>CustAddr_2_</DataField>
+        </Field>
+        <Field Name="CustAddr_1_">
+          <DataField>CustAddr_1_</DataField>
+        </Field>
+        <Field Name="CurrencyCode">
+          <DataField>CurrencyCode</DataField>
+        </Field>
+        <Field Name="PageLoop_Number">
+          <DataField>PageLoop_Number</DataField>
+        </Field>
+        <Field Name="CurrPage">
+          <DataField>CurrPage</DataField>
+        </Field>
+        <Field Name="TotalPreviousValue">
+          <DataField>TotalPreviousValue</DataField>
+        </Field>
+        <Field Name="TotalPreviousValueFormat">
+          <DataField>TotalPreviousValueFormat</DataField>
+        </Field>
+        <Field Name="GrossAmountToDate_ContractSalesInvoiceLine">
+          <DataField>GrossAmountToDate_ContractSalesInvoiceLine</DataField>
+        </Field>
+        <Field Name="GrossAmountToDate_ContractSalesInvoiceLineFormat">
+          <DataField>GrossAmountToDate_ContractSalesInvoiceLineFormat</DataField>
+        </Field>
+        <Field Name="RetentionToDate_ContractSalesInvoiceLine">
+          <DataField>RetentionToDate_ContractSalesInvoiceLine</DataField>
+        </Field>
+        <Field Name="RetentionToDate_ContractSalesInvoiceLineFormat">
+          <DataField>RetentionToDate_ContractSalesInvoiceLineFormat</DataField>
+        </Field>
+        <Field Name="MCDToDate_ContractSalesInvoiceLine">
+          <DataField>MCDToDate_ContractSalesInvoiceLine</DataField>
+        </Field>
+        <Field Name="MCDToDate_ContractSalesInvoiceLineFormat">
+          <DataField>MCDToDate_ContractSalesInvoiceLineFormat</DataField>
+        </Field>
+        <Field Name="NetAmount_ContractSalesInvoiceLine">
+          <DataField>NetAmount_ContractSalesInvoiceLine</DataField>
+        </Field>
+        <Field Name="NetAmount_ContractSalesInvoiceLineFormat">
+          <DataField>NetAmount_ContractSalesInvoiceLineFormat</DataField>
+        </Field>
+        <Field Name="NetValue">
+          <DataField>NetValue</DataField>
+        </Field>
+        <Field Name="NetValueFormat">
+          <DataField>NetValueFormat</DataField>
+        </Field>
+        <Field Name="PreviousValue_ContractSalesInvoiceLine">
+          <DataField>PreviousValue_ContractSalesInvoiceLine</DataField>
+        </Field>
+        <Field Name="PreviousValue_ContractSalesInvoiceLineFormat">
+          <DataField>PreviousValue_ContractSalesInvoiceLineFormat</DataField>
+        </Field>
+        <Field Name="VAT_Amount_ContractSalesInvoiceLine">
+          <DataField>VAT_Amount_ContractSalesInvoiceLine</DataField>
+        </Field>
+        <Field Name="VAT_Amount_ContractSalesInvoiceLineFormat">
+          <DataField>VAT_Amount_ContractSalesInvoiceLineFormat</DataField>
+        </Field>
+        <Field Name="Amount_ContractSalesInvoiceLine">
+          <DataField>Amount_ContractSalesInvoiceLine</DataField>
+        </Field>
+        <Field Name="Amount_ContractSalesInvoiceLineFormat">
+          <DataField>Amount_ContractSalesInvoiceLineFormat</DataField>
+        </Field>
+        <Field Name="Contract_Sales_Invoice_Line_Document_No_">
+          <DataField>Contract_Sales_Invoice_Line_Document_No_</DataField>
+        </Field>
+        <Field Name="Contract_Sales_Invoice_Line_Line_No_">
+          <DataField>Contract_Sales_Invoice_Line_Line_No_</DataField>
+        </Field>
+        <Field Name="VATClauseDescription">
+          <DataField>VATClauseDescription</DataField>
+        </Field>
+        <Field Name="VATClauseAmount">
+          <DataField>VATClauseAmount</DataField>
+        </Field>
+        <Field Name="VATClauseAmountFormat">
+          <DataField>VATClauseAmountFormat</DataField>
+        </Field>
+        <Field Name="FORMAT_VATAmountLine__VAT___________">
+          <DataField>FORMAT_VATAmountLine__VAT___________</DataField>
+        </Field>
+        <Field Name="VATAmountLine__VAT_Base_">
+          <DataField>VATAmountLine__VAT_Base_</DataField>
+        </Field>
+        <Field Name="VATAmountLine__VAT_Base_Format">
+          <DataField>VATAmountLine__VAT_Base_Format</DataField>
+        </Field>
+        <Field Name="VATAmountLine__VAT_Amount_">
+          <DataField>VATAmountLine__VAT_Amount_</DataField>
+        </Field>
+        <Field Name="VATAmountLine__VAT_Amount_Format">
+          <DataField>VATAmountLine__VAT_Amount_Format</DataField>
+        </Field>
+        <Field Name="VATCounter_Number">
+          <DataField>VATCounter_Number</DataField>
+        </Field>
+        <Field Name="VATCalculationType">
+          <DataField>VATCalculationType</DataField>
+        </Field>
+        <Field Name="TotalGrossValue">
+          <DataField>TotalGrossValue</DataField>
+        </Field>
+        <Field Name="TotalGrossValueFormat">
+          <DataField>TotalGrossValueFormat</DataField>
+        </Field>
+        <Field Name="TotalRetentionValue">
+          <DataField>TotalRetentionValue</DataField>
+        </Field>
+        <Field Name="TotalRetentionValueFormat">
+          <DataField>TotalRetentionValueFormat</DataField>
+        </Field>
+        <Field Name="TotalMCDValue">
+          <DataField>TotalMCDValue</DataField>
+        </Field>
+        <Field Name="TotalMCDValueFormat">
+          <DataField>TotalMCDValueFormat</DataField>
+        </Field>
+        <Field Name="ClauseDescription">
+          <DataField>ClauseDescription</DataField>
+        </Field>
+        <Field Name="ClauseVATAmount">
+          <DataField>ClauseVATAmount</DataField>
+        </Field>
+        <Field Name="ClauseVATAmountFormat">
+          <DataField>ClauseVATAmountFormat</DataField>
+        </Field>
+        <Field Name="TempVATAmountLineVAT">
+          <DataField>TempVATAmountLineVAT</DataField>
+        </Field>
+        <Field Name="TempVATAmountLineVATFormat">
+          <DataField>TempVATAmountLineVATFormat</DataField>
+        </Field>
+        <Field Name="TempVATAmountLineNetAmount">
+          <DataField>TempVATAmountLineNetAmount</DataField>
+        </Field>
+        <Field Name="TempVATAmountLineNetAmountFormat">
+          <DataField>TempVATAmountLineNetAmountFormat</DataField>
+        </Field>
+        <Field Name="Project">
+          <DataField>Project</DataField>
+        </Field>
+        <Field Name="ProjectRef">
+          <DataField>ProjectRef</DataField>
+        </Field>
+        <Field Name="NewDate">
+          <DataField>NewDate</DataField>
+        </Field>
+        <Field Name="Terms">
+          <DataField>Terms</DataField>
+        </Field>
+        <Field Name="RetentionPercentage">
+          <DataField>RetentionPercentage</DataField>
+        </Field>
+        <Field Name="RetentionPercentageFormat">
+          <DataField>RetentionPercentageFormat</DataField>
+        </Field>
+        <Field Name="UTR">
+          <DataField>UTR</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>
